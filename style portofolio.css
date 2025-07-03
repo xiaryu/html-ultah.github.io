@@ -1,0 +1,61 @@
+body{
+    background: #10cfb6;
+    margin:0;
+}
+.header{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+
+.nav{
+    padding: 20px;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(17, 18, 18);
+    padding: 20px;
+}
+.nav a:hover{
+    background-color: aquamarine;
+    color: azure;
+}
+.container{
+    width: 800px;
+    background-color: grey;
+    margin: auto;
+}
+.image{
+    height: 200px;
+    background-image: url(freya\ my\ lope.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid lightgreen;
+}
+.content{
+    padding-left: 20px;
+}
+.penulis{
+
+}
+.penulis a{
+    text-decoration: none;
+    color: lightcyan;
+}
+.penulis a:hover{
+    background-color: blue;
+    color: rgb(158, 129, 151);
+}
+.footer{
+    margin: auto;
+    background-color: #ccbd38;
+    width: 800px;
+}
+.footer.copy{
+    text-align: center;
+}
